@@ -1,4 +1,4 @@
-# Astro Starter Kit: Minimal
+# Astro Portfolio Website
 
 ```sh
 npm create astro@latest -- --template minimal
@@ -18,14 +18,26 @@ Inside of your Astro project, you'll see the following folders and files:
 /
 ├── public/
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── components/
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   ├── Hamburger.astro
+│   │   ├── Navigation.astro
+│   │   └── Social.astro
+│   ├── layouts/
+│   │   └── BaseLayout.astro
+│   ├── pages/
+│   │   ├── about.astro
+│   │   ├── blog.astro
+│   │   └── index.astro
+│   └── styles/
+│       └── global.css
 └── package.json
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+There's nothing special about `src/components/` and `src/layouts/`, but that's where we like to put any Astro components and layouts.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
