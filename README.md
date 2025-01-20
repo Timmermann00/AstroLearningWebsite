@@ -13,7 +13,8 @@ Inside of your Astro project, you'll see the following folders and files:
 │   │   ├── Header.astro
 │   │   ├── Hamburger.astro
 │   │   ├── Navigation.astro
-│   │   └── Social.astro
+│   │   ├── Social.astro
+│   │   └── ThemeIcon.astro
 │   ├── layouts/
 │   │   └── BaseLayout.astro
 │   ├── pages/
@@ -43,6 +44,10 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 🌗 Dark Mode
+
+This project includes a dark mode feature. The theme can be toggled using the button in the header. The current theme preference is saved in local storage and applied on subsequent visits.
 
 ## 👀 Want to learn more?
 
